@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #cfd6d6;
+}
+
+nav h1 {
+    letter-spacing: 0.2rem;
+}
+
+.navList,
+a {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
