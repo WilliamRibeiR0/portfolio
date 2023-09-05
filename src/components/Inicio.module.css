@@ -6,7 +6,7 @@
 
 /* animation */
 .message {
-    font-size: 30px;
+    font-size: 40px;
     border-right: 1px solid;
     width: 100%;
     white-space: nowrap;
@@ -26,12 +26,20 @@
     }
 }
 
+/* text */
+
+/* .info span {
+    width: 500px;
+    display: flex;
+    text-align: center;
+} */
+
 /* Responsividade */
 @media (max-width: 1035px) {
     .message {
         font-size: 13px;
     }
-    .info {
+    .info span{
         width: 100%;
         height: 100%;
         text-align: center;

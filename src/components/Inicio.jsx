@@ -8,9 +8,10 @@ function Inicio() {
                 <div className={styles.message}>
                     <h1>William Pimenta Ribeiro</h1>
                 </div>
+                <span>Desenvolvedor Front-end</span>
             </div>
 
-            <div className={styles.info}>
+            {/* <div className={styles.info}>
                 <span>
                     Atualmente sou inspetor de qualidade e estou em transição de
                     carreira estudando para ser um desenvolvedor web. cursei
@@ -18,7 +19,7 @@ function Inicio() {
                     pronto para aprender e melhorar minhas habilidades como
                     desenvolvedor front-end.
                 </span>
-            </div>
+            </div> */}
         </div>
     );
 }
