@@ -4,7 +4,7 @@ function Header() {
     return (
         <div>
             <nav>
-                <h1>Portifólio</h1>
+                <h1>Portfólio</h1>
 
                 <ul className={styles.navList}>
                     <li>
