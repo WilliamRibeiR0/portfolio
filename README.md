@@ -2,5 +2,5 @@
 
 Primeiro projeto criado em react aonde irei atualizá-lo de acordo com minha evolução, nele desenvolvi minha habilidade react utilizando vários componentes para divisão do código.
 
-[Teste em tempo real](https://portifolio-react-theta.vercel.app/)
+[Teste em tempo real](https://portfolio-six-chi-83.vercel.app/)
 
