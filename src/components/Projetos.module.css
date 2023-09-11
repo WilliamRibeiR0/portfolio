@@ -19,6 +19,12 @@
     justify-content: space-between;
 }
 
+.buttonInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .bottonCard {
     border-radius: 10px;
     padding: 5px;

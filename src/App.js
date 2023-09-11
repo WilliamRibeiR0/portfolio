@@ -3,6 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Inicio from "./components/Inicio";
 import Projetos from "./components/Projetos";
+import Sobre from "./components/Sobre";
 
 function App() {
     return (
@@ -10,7 +11,8 @@ function App() {
             <Wrapper />
             <Header />
             <Inicio />
-            <Projetos/>
+            <Sobre />
+            <Projetos />
         </div>
     );
 }

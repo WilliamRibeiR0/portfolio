@@ -10,3 +10,7 @@ body {
     background-color: #dadfdf;
     font-family: "Poppins", sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}

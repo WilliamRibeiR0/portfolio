@@ -7,14 +7,14 @@ function Header() {
                 <h1>Portifólio</h1>
 
                 <ul className={styles.navList}>
-                    <li id="">
-                        <a href="#">Inicio</a>
+                    <li>
+                        <a href="#inicio">Inicio</a>
                     </li>
-                    <li id="">
-                        <a href="#">Sobre</a>
+                    <li>
+                        <a href="#sobre">Sobre</a>
                     </li>
-                    <li id="">
-                        <a href="#">Projetos</a>
+                    <li>
+                        <a href="#projetos">Projetos</a>
                     </li>
                 </ul>
             </nav>

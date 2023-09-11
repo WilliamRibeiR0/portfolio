@@ -1,6 +1,11 @@
+import styles from "./Sobre.module.css";
+import img from "../img/william.jpg";
+
 function Sobre() {
     return (
-        <div className={styles.info}>
+        <div className={styles.info} id="sobre">
+            <img src={img} alt="imagem do desenvolvedor" />
+
             <span>
                 Atualmente sou inspetor de qualidade e estou em transição de
                 carreira estudando para ser um desenvolvedor web. cursei analise
@@ -12,4 +17,4 @@ function Sobre() {
     );
 }
 
-export default Sobre
+export default Sobre;

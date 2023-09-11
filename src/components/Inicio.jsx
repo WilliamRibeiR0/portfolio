@@ -2,7 +2,7 @@ import styles from "./Inicio.module.css";
 
 function Inicio() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="inicio">
             <div className={styles.name}>
                 <span>olá, meu nome é</span>
                 <div className={styles.message}>
