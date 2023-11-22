@@ -32,7 +32,7 @@ function Projetos() {
 
                     <p>
                         Projeto simples aonde o usuario ira se deparar com uma
-                        pagina de liks para acessar.
+                        pagina de liks para acessar, se concentra as principais redes usadas por mim, usei uma forma de link aonde o usuário é levado a outra pagina mantendo a pagina original aberta.
                     </p>
                     <div className={styles.buttonInfo}>
                         <a href="https://github.com/WilliamRibeiR0/devLink" target="blank">
