@@ -1,4 +1,4 @@
-import styles from "./Header.module.css";
+ import styles from "./Header.module.css";
 
 function Header() {
     return (
@@ -14,7 +14,13 @@ function Header() {
                         <a href="#sobre">Sobre</a>
                     </li>
                     <li>
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li>
                         <a href="#projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contato</a>
                     </li>
                 </ul>
             </nav>

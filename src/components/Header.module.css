@@ -4,8 +4,9 @@ nav {
     justify-content: space-around;
     height: 70px;
     width: 100%;
-    background-color: #cfd6d6;
+    background-color: #1c1b22;
     position: fixed;
+    color: white;
 }
 
 nav h1 {
@@ -18,5 +19,5 @@ a {
     gap: 20px;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: rgb(248, 248, 248);
 }

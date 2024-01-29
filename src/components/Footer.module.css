@@ -1,0 +1,6 @@
+.footer{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #1c1b22;
+}
