@@ -1,0 +1,39 @@
+.box1 {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box2 {
+    background-color: #1c1b22;
+    width: 60%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.box3 img {
+    background-color: black;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.titleProjetos {
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.link {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    width: 300px;
+}
