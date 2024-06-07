@@ -6,6 +6,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 
 
 function Habilidades (){
@@ -21,6 +22,7 @@ function Habilidades (){
                 <FaNodeJs />
                 <TbSql />
                 <FaGitAlt />
+                <FaPython />
                 </div>
             </div>
         </div>

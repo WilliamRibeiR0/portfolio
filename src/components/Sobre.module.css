@@ -1,11 +1,9 @@
 .info {
-    height: 100vh;
+    height: 600px;;
     display: grid;
     place-items: center;
-    
+    margin-top: 100px;
 }
-
-
 
 .info span {
     text-align: center;

@@ -14,7 +14,7 @@ function App() {
             <Header />
             <Inicio />
             <Sobre />
-            <Habilidades/>
+            <Habilidades />
             <Projetos />
             <Footer />
         </div>

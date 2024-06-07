@@ -11,74 +11,75 @@ function Projetos() {
         <div className={styles.box1} id="projetos">
             <h2>Projetos</h2>
             <div className={styles.box2}>
-                <div>
-                    <p>calculadora</p>
-                    <a
-                        href="https://williamribeir0.github.io/calculadora/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img1} alt="" />
-                    </a>
-                </div>
-                
-                <div>
-                <p>clima</p>
-                    <a
-                        href="https://williamribeir0.github.io/Clima/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img2} alt="" />
-                    </a>
-                </div>
-
-
-                <div>
-                <p>landing_pag</p>
-                    <a
-                        href="https://landing-pag-koea.vercel.app/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img3} alt="" />
-                    </a>
+                <div >
+                    <div className={styles.box3}>
+                        <p>calculadora</p>
+                        <a
+                            href="https://williamribeir0.github.io/calculadora/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img1} alt="" />
+                        </a>
+                    </div>
+                    
+                    <div>
+                    <p>clima</p>
+                        <a
+                            href="https://williamribeir0.github.io/Clima/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img2} alt="" />
+                        </a>
+                    </div>
                 </div>
 
 
-                <div>
-                    <p>Dev link</p>
-                    <a
-                        href="https://dev-link-three.vercel.app/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img4} alt="" />
-                    </a>
+                <div >
+                    <div className={styles.box3}>
+                    <p>landing_pag</p>
+                        <a
+                            href="https://landing-pag-koea.vercel.app/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img3} alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <p>Dev link</p>
+                        <a
+                            href="https://dev-link-three.vercel.app/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img4} alt="" />
+                        </a>
+                    </div>
                 </div>
 
-
                 <div>
-                <p>Jogo da Velha</p>
-                    <a
-                        href="https://williamribeir0.github.io/jogo_da_velha/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img5} alt="" />
-                    </a>
-                </div>
-
-
-                <div>
-                <p>Snake Game</p>
-                    <a
-                        href="https://snake-nu-beryl.vercel.app/"
-                        target="blank"
-                        className={styles.box3}
-                    >
-                        <img src={img6} alt="" />
-                    </a>
+                    <div className={styles.box3}>
+                    <p>Jogo da Velha</p>
+                        <a
+                            href="https://williamribeir0.github.io/jogo_da_velha/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img5} alt="" />
+                        </a>
+                    </div>
+                    <div>
+                    <p>Snake Game</p>
+                        <a
+                            href="https://snake-nu-beryl.vercel.app/"
+                            target="blank"
+                            className={styles.box4}
+                        >
+                            <img src={img6} alt="" />
+                        </a>
+                    </div>
                 </div>
 
 
