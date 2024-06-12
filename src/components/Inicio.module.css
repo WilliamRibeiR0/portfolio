@@ -15,13 +15,23 @@
     animation: typing 3.4s steps(23), blinking 0.5s infinite step-end alternate;
 }
 
+.cv a{
+    background-color: rgb(44, 50, 86);
+    width: 170px;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
 @keyframes typing {
     from {
         width: 0;
     }
 }
 
-@keyframe blinking {
+@keyframes blinking {
     50% {
         border-color: transparent;
     }
