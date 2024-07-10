@@ -1,7 +1,5 @@
 import styles from "./Inicio.module.css";
 
-
-
 function Inicio() {
     return (
         <div className={styles.container} id="inicio">

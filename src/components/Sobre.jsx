@@ -13,9 +13,9 @@ function Sobre() {
                     <span>
                         Atualmente sou inspetor de qualidade e estou em
                         transição de carreira estudando para ser um
-                        desenvolvedor. Cursei analise e desenvolvimento de
-                        sistemas por dois semestres, pronto para aprender e
-                        melhorar minhas habilidades como desenvolvedor.
+                        desenvolvedor web. Cursei analise e desenvolvimento de
+                        sistemas por dois semestres, estou a procura de ter a
+                        oportunidade de resolver problemas e me desafiar.
                     </span>
                 </div>
             </div>
