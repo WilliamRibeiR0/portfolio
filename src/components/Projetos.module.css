@@ -18,12 +18,12 @@
     align-items: center;
     gap: 80px;
     border-radius: 10px;
-    overflow: auto;
 }
 
 .card_article {
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .card_img {

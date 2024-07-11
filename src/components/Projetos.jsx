@@ -54,7 +54,7 @@ function Projetos() {
                         <span className={styles.card_description}>
                         HTML, CSS, JavaScript.
                         </span>
-                        <h2 className={styles.card_title}>Dev Link</h2>
+                        <h2 className={styles.card_title}>Pag Login</h2>
                         <div className={styles.card_buttons}>
                             <a href="#" className={styles.card_button}>
                                 Ver Projeto
@@ -90,7 +90,7 @@ function Projetos() {
                         <span className={styles.card_description}>
                         HTML, CSS, JavaScript.
                         </span>
-                        <h2 className={styles.card_title}>Dev Link</h2>
+                        <h2 className={styles.card_title}>Jogo Da Velha</h2>
                         <div className={styles.card_buttons}>
                             <a href="#" className={styles.card_button}>
                                 Ver Projeto
@@ -108,25 +108,7 @@ function Projetos() {
                         <span className={styles.card_description}>
                         HTML, CSS, JavaScript.
                         </span>
-                        <h2 className={styles.card_title}>Dev Link</h2>
-                        <div className={styles.card_buttons}>
-                            <a href="#" className={styles.card_button}>
-                                Ver Projeto
-                            </a>
-                            <a href="#" className={styles.card_button}>
-                                Ver Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.card_article}>
-                    <img src={img5} alt="imagem" className={styles.card_img} />
-                    <div className={styles.card_data}>
-                        <span className={styles.card_description}>
-                        HTML, CSS, JavaScript.
-                        </span>
-                        <h2 className={styles.card_title}>Dev Link</h2>
+                        <h2 className={styles.card_title}>Game Snake</h2>
                         <div className={styles.card_buttons}>
                             <a href="#" className={styles.card_button}>
                                 Ver Projeto
@@ -138,6 +120,7 @@ function Projetos() {
                     </div>
                 </div>
             </div>
+            <a href="https://github.com/WilliamRibeiR0?tab=repositories" target="blank">Ver mais</a>
         </div>
     );
 }

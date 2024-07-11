@@ -4,7 +4,7 @@ function Inicio() {
     return (
         <div className={styles.container} id="inicio">
             <div className={styles.name}>
-                <span>olá, meu nome é</span>
+                <span>Olá, meu nome é</span>
                 <div className={styles.message}>
                     <h1>William Pimenta Ribeiro</h1>
                 </div>
