@@ -1,62 +1,166 @@
-.box1 {
+.container {
     display: grid;
     place-items: center;
     height: 895px;
     margin-bottom: 200px;
 }
 
-.box2 {
+.card_container { 
     background-color: #1c1b22;
-    max-width: 1350px;
+    max-width: 1370px;
     height: 700px;
     display: flex;
+    flex-wrap: wrap;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
     gap: 80px;
     border-radius: 10px;
-    overflow-x: scroll;
+    overflow: auto;
 }
 
-.box3{
-    margin-bottom: 40px;
+.card_article {
+    position: relative;
+    overflow: hidden;
 }
 
-.box4 img {
-    background-color: black;
+.card_img {
     width: 350px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     object-fit: cover;
 }
 
-.titleProjetos {
-    display: grid;
-    place-items: center;
-    padding: 30px;
-    width: 100%;
+.card_data {
+    width: 280px;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s;
 }
 
-.link {
-    border-bottom: 1px solid rgb(255, 255, 255);
-    display: grid;
-    place-items: center;
-    width: 300px;
+.card_description {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0.25rem;
 }
 
-@media(max-width: 600px){
-    .box2{
-        width: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
+.card_title {
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+    margin-bottom: 0.75rem;
+}
+
+.card_button{
+    text-decoration: none;
+    color: rgb(1, 140, 138);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card_button:hover{
+    text-decoration: underline;
+}
+
+.card_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_article:hover .card_data{
+    animation: show-data 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.card_article:hover{
+    animation: remove-overflow 2s forwards;
+}
+
+.card_article:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+
+.card_article:not(:hover) .card_data{
+    animation: remove_data 1s forwards;
+}
+
+@keyframes show-data{
+    50%{
+        transform: translateY(-10rem);
     }
-    .box4 img {
-        background-color: black;
-        width: 200px;
-        height: 250px;
-        border-radius: 10px;
-        object-fit: cover;
+    100%{
+        transform: translateY(-7rem);
+    }
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
+@keyframes remove_data{
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(.5rem);
+    }
+}
+
+@keyframes show-overflow{
+    0%{
+       overflow: initial;
+       pointer-events: none;
+    }
+    50%{
+       overflow: hidden;
+    }
+}
+
+@media screen and(max-width: 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
+    .card_data{
+       width: 100px;
+       padding: 1rem;
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .card_container{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media screen and(min-width: 1120px) {
+    .container {
+        height: 100vh;
+    }
+    .card_container{
+        grid-template-columns:repeat(3,1fr);
+    }
+    .card_img{
+        width: 348px;
+    }
+    .card_data{
+        width: 316px;
+        padding-inline: 2.5rem;
     }
 }
