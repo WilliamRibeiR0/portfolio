@@ -1,17 +1,17 @@
-.mainSkill{
+.mainSkill {
     height: 700px;
-    display: flex;
+    width: 100%;
+    display: grid;
     place-items: center;
-    flex-wrap: wrap;
 }
 
-.skill svg{
+.skill svg {
     width: 100px;
     height: 100px;
     margin: 10px;
 }
 
-.boxSkill{
+.boxSkill {
     width: 100%;
     display: flex;
     align-items: center;
@@ -20,3 +20,21 @@
     gap: 70px;
 }
 
+@media (max-width: 600px) {
+    .mainSkill {
+        width: 400px;
+        margin: auto;
+    }
+    .skill {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainSkill {
+        width: 300px;
+    }
+}

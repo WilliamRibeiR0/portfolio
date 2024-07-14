@@ -10,8 +10,7 @@ function Inicio() {
                 </div>
                 <span>Desenvolvedor Full-Stack</span>
                 <div className={styles.cv}><a href="https://cv-rouge-ten.vercel.app/William%20pimenta%20ribeiro-3.pdf" target="blank">Download do CV</a></div>
-            </div>
-           
+            </div>         
         </div>
     );
 }
