@@ -16,7 +16,6 @@ function App() {
             <Sobre />
             <Habilidades />
             <Projetos />
-            <Footer />
         </div>
     );
 }

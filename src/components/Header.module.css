@@ -56,19 +56,16 @@ a {
 
     .navList.active {
         display: flex;
+        background-color: aliceblue;
+        width: 200px;
+        height: 200px;
     }
 
     .hamburger {
         display: flex;
+        flex-direction: column;
     }
-    .navList li {
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .navList li a {
-        display: block;
-        width: 100%;
+    nav h1 {
+        display: none;
     }
 }

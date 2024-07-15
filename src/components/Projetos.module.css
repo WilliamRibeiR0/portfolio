@@ -164,3 +164,14 @@
         padding-inline: 2.5rem;
     }
 }
+
+@media(max-width: 1400px) {
+    .card_container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
