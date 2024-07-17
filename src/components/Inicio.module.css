@@ -15,14 +15,18 @@
     animation: typing 3.4s steps(23), blinking 0.5s infinite step-end alternate;
 }
 
-.cv a{
-    background-color: rgb(44, 50, 86);
+.cv a {
+    background-color: rgb(62, 73, 82);
     width: 170px;
     margin: 20px;
     padding: 10px;
     display: grid;
     place-items: center;
     border-radius: 20px;
+}
+
+.cv a:hover {
+    background-color: #3c5865;
 }
 
 @keyframes typing {
@@ -53,7 +57,7 @@
     .message {
         font-size: 16px;
     }
-    .container{
+    .container {
         font-size: large;
     }
 }

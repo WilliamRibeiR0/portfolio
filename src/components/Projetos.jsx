@@ -66,7 +66,7 @@ function Projetos() {
         },
     ];
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="projetos">
             <h1 className={styles.title}>Projetos</h1>
             <Swiper
                 slidesPerView={1}
