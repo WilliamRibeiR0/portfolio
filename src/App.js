@@ -7,6 +7,8 @@ import Sobre from "./components/Sobre";
 import Footer from "./components/Footer";
 import Habilidades from "./components/Habilidades";
 
+
+
 function App() {
     return (
         <div>
@@ -16,6 +18,7 @@ function App() {
             <Sobre />
             <Habilidades />
             <Projetos />
+            <Footer/>
         </div>
     );
 }

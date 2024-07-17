@@ -1,186 +1,101 @@
 .container {
-    display: grid;
-    place-items: center;
-    height: 895px;
-    margin-bottom: 200px;
+    width: 100%;
+    padding-bottom: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.card_container { 
-    background-color: #1c1b22;
-    max-width: 1370px;
-    height: 700px;
+.container h1 {
+    margin-bottom: 80px;
+}
+
+.title {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.slide {
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     align-items: center;
-    gap: 80px;
-    border-radius: 10px;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
 }
 
-.card_article {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+.fatherSlide {
+    height: 500px;
 }
 
-.card_img {
-    width: 350px;
-    height: 250px;
-    border-radius: 1.5rem;
+.slide_item {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
-.card_data {
-    width: 280px;
-    background-color: rgb(243, 243, 243);
-    color: black;
-    padding: 1.5rem 2rem;
-    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
-    border-radius: 1rem;
-    position: absolute;
-    bottom: -9rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-    opacity: 0;
-    transition: opacity 1s 1s;
+.slide_item:hover {
+    border: #e1e6e9 5px solid;
+   
 }
 
-.card_description {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 0.25rem;
-}
-
-.card_title {
-    font-size: 30px;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 0.75rem;
-}
-
-.card_button{
-    text-decoration: none;
-    color: rgb(1, 140, 138);
-    font-size: 15px;
-    font-weight: 800;
-}
-
-.card_button:hover{
-    text-decoration: underline;
-}
-
-.card_buttons{
+.box_info {
+    width: 650px;
+    height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.card_article:hover .card_data{
-    animation: show-data 1s forwards;
-    opacity: 1;
-    transition: opacity .3s;
+.box_info h2 {
+    border-bottom: 1px solid white;
+    font-size: 25px;
 }
 
-.card_article:hover{
-    animation: remove-overflow 2s forwards;
+.slide_text {
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-.card_article:not(:hover){
-    animation: show-overflow 2s forwards;
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 }
 
-.card_article:not(:hover) .card_data{
-    animation: remove_data 1s forwards;
+.button a {
+    width: 150px;
+    height: 35px;
+    background-color: #3e4952;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
 }
 
-@keyframes show-data{
-    50%{
-        transform: translateY(-10rem);
-    }
-    100%{
-        transform: translateY(-7rem);
-    }
+.button a:hover {
+    background-color: #3c5865;
 }
 
-@keyframes remove-overflow{
-    to{
-        overflow: initial;
-    }
-}
-
-@keyframes remove_data{
-    0%{
-        transform: translateY(-7rem);
-    }
-    50%{
-        transform: translateY(-10rem);
-    }
-    100%{
-        transform: translateY(.5rem);
-    }
-}
-
-@keyframes show-overflow{
-    0%{
-       overflow: initial;
-       pointer-events: none;
-    }
-    50%{
-       overflow: hidden;
-    }
-}
-
-@media screen and(max-width: 340px) {
+@media (max-width: 1160px) {
     .container {
-        margin-inline: 1rem;
+        text-align: center;
     }
-    .card_data{
-       width: 100px;
-       padding: 1rem;
-    }
-}
 
-@media screen and(min-width: 768px) {
-    .card_container{
-        grid-template-columns:repeat(2,1fr);
+    .slide_item {
+        width: 400px;
+        height: 250px;
+        margin: auto;
     }
-}
-
-@media screen and(min-width: 1120px) {
-    .container {
-        height: 100vh;
-    }
-    .card_container{
-        grid-template-columns:repeat(3,1fr);
-    }
-    .card_img{
-        width: 348px;
-    }
-    .card_data{
-        width: 316px;
-        padding-inline: 2.5rem;
-    }
-}
-
-@media(max-width: 1400px) {
-    .card_container{
-        width: auto;
-        height: auto;
+    .slide {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
-}
-
-@media(max-width: 500px) {
-    .card_container{
-        max-width:450px;
-        
-
+    .box_info {
+        width: 350px;
+        text-align: center;
+        gap: 30px;
     }
-   
+    .fatherSlide {
+        height: 700px;
+    }
 }
