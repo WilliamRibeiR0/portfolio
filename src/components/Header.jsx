@@ -1,23 +1,9 @@
-import React, { useState } from "react";
 import styles from "./Header.module.css";
 
 function Header() {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
-
     return (
-        <div>
+        <div className={styles.header}>
             <nav>
-                <h1>Portfólio</h1>
-                <div className={styles.hamburger} onClick={toggleMenu}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-
                 <ul className={styles.navList}>
                     <li>
                         <a href="#inicio">Inicio</a>
