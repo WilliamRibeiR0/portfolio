@@ -16,17 +16,18 @@
 }
 
 .cv a {
-    background-color: rgb(62, 73, 82);
+    background-color: #1c1b22;
     width: 170px;
     margin: 20px;
     padding: 10px;
     display: grid;
     place-items: center;
     border-radius: 20px;
+    color: #ffffff;
 }
 
 .cv a:hover {
-    background-color: #3c5865;
+    background-color: #3e4952;
 }
 
 @keyframes typing {

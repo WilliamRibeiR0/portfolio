@@ -6,13 +6,10 @@ function Header() {
             <nav>
                 <ul className={styles.navList}>
                     <li>
-                        <a href="#inicio">Inicio</a>
+                        <a href="#inicio">Home</a>
                     </li>
                     <li>
                         <a href="#sobre">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#habilidades">Habilidades</a>
                     </li>
                     <li>
                         <a href="#projetos">Projetos</a>

@@ -1,5 +1,5 @@
 import "./App.css";
-import Wrapper from "./components/Wrapper";
+import Animation from "./components/Animation";
 import Header from "./components/Header";
 import Inicio from "./components/Inicio";
 import Projetos from "./components/Projetos";
@@ -12,13 +12,13 @@ import Habilidades from "./components/Habilidades";
 function App() {
     return (
         <div>
-            <Wrapper />
+            <Animation />
             <Header />
             <Inicio />
             <Sobre />
-            <Habilidades />
+            
             <Projetos />
-            <Footer/>
+            <Footer />
         </div>
     );
 }

@@ -32,7 +32,7 @@ function Sobre() {
                         </a>
 
                         <a
-                            href="https://github.com/WilliamRibeiR0"
+                            href="https://www.linkedin.com/in/william-pimenta-ribeiro/"
                             target="blank"
                             className={styles.box_button}
                         >

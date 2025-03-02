@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color: #2b2a33;
+    background-color: #fcfcfc;
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 html{

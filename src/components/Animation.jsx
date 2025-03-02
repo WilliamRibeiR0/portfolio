@@ -1,10 +1,10 @@
-import styles from "./Wrapper.module.css"
+import styles from "./Animation.module.css"
 
 
 
-function Wrapper() {
+function Animation() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.Animation}>
             <div className={styles.box}>
                 <div></div>
                 <div></div>
@@ -21,4 +21,4 @@ function Wrapper() {
     );
 }
 
-export default Wrapper;
+export default Animation;

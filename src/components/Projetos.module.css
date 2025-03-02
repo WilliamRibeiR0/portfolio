@@ -66,14 +66,15 @@
 .button a {
     width: 150px;
     height: 35px;
-    background-color: #3e4952;
+    background-color: #1c1b22;
     border-radius: 5px;
     display: grid;
     place-items: center;
+    color: white;
 }
 
 .button a:hover {
-    background-color: #3c5865;
+    background-color: #3e4952;
 }
 
 @media (max-width: 1160px) {

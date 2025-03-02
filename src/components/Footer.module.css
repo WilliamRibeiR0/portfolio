@@ -1,6 +1,63 @@
-.footer{
-    height: 300px;
+.foooter {
     display: grid;
     place-items: center;
+    width: 100%;
     background-color: #1c1b22;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 50px;
+    width: 50%;
+    padding: 30px;
+    color: white;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+.links a:hover {
+    color: #62bab7;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contato a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+}
+
+.contato a:hover {
+    color: #62bab7;
+}
+
+.icon a {
+    color: #ffffff;
+}
+
+.icon a:hover {
+    color: #62bab7;
+}
+
+hr {
+    width: 60%;
 }
