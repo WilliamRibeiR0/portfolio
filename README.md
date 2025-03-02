@@ -3,18 +3,18 @@
 Primeiro projeto criado em react aonde irei atualizá-lo de acordo com minha evolução, nele desenvolvi minha habilidade react utilizando vários componentes para divisão do código.
 Uma maneira que usei para criar o carrossel foi utilizando do swiper.
 
-[Teste em tempo real](https://portfolio-six-chi-83.vercel.app/)
+[Teste em tempo real](https://portfolio-git-main-williamribeir0s-projects.vercel.app/)
 
-![imagem](src/img/home.gif)
+![imagem](src/img/imgReadme/imghomePag.gif)
 
 # Responsividade
 
-![imagem](src/img/imgReadme/Captura%20de%20tela%202024-07-16%20-%2022.56.32.png)
+<!-- ![imagem]()
 
-![imagem](src/img/imgReadme/Captura%20de%20tela%202024-07-16%20-%2022.56.46.png)
+![imagem]()
 
-![imagem](src/img/imgReadme/Captura%20de%20tela%202024-07-16%20-%2022.56.55.png)
+![imagem]()
 
-![imagem](src/img/imgReadme/Captura%20de%20tela%202024-07-16%20-%2022.57.05.png)
+![imagem]()
 
-![imagem](src/img/imgReadme/Captura%20de%20tela%202024-07-16%20-%2022.57.11.png)
+![imagem]() -->
