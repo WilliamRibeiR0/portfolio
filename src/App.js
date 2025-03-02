@@ -3,10 +3,8 @@ import Animation from "./components/Animation";
 import Header from "./components/Header";
 import Inicio from "./components/Inicio";
 import Projetos from "./components/Projetos";
-import Sobre from "./components/Sobre";
 import Footer from "./components/Footer";
-import Habilidades from "./components/Habilidades";
-
+import Skils from "./components/Skils"
 
 
 function App() {
@@ -15,8 +13,7 @@ function App() {
             <Animation />
             <Header />
             <Inicio />
-            <Sobre />
-            
+            <Skils />
             <Projetos />
             <Footer />
         </div>
