@@ -1,8 +1,8 @@
 .container {
     display: grid;
     place-items: center;
-    height: 100vh;
     box-shadow: 0px 8px 8px 0px #0000002a;
+    min-height: 1000px;
 }
 
 /* animation */

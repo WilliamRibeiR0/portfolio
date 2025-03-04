@@ -1,9 +1,8 @@
 .skils {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
+    min-height: 1000px; 
 }
 
 .full {
@@ -162,4 +161,16 @@
 .tempo {
     color: #62bab7;
     font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills_section {
+        justify-content: center;
+    }
 }

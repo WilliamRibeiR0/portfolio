@@ -3,10 +3,14 @@
     padding-bottom: 30px;
     max-width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
+    min-height: 1000px; 
+    padding: 50px;    
 }
 
 .container h1 {
     margin-bottom: 20px;
+    padding: 50px;
 }
 
 .title {
