@@ -52,7 +52,7 @@ function Projetos() {
             id: "5",
             image: img5,
             title: "Jogo da Velha",
-            text: " A logica do jogo consiste em: existe um array com 9 espacos vazios, sempre que o usuario clicar em um espaço vazio, sera atribuido o valor 'X' ou 'O' baseado em quem for o jogador atual. Na verificação de quem ganhou, existe um array bi-dimensional contendo todas as possiveis vitorias, ou seja todas as possibilidades, verticais, horizontais e diagonais.",
+            text: " A logica do jogo consiste em existe um array com 9 espacos vazios, sempre que o usuario clicar em um espaço vazio, sera atribuido o valor 'X' ou 'O' baseado em quem for o jogador atual.",
             link1: "https://github.com/WilliamRibeiR0/jogo_da_velha",
             link2: "https://williamribeir0.github.io/jogo_da_velha/",
         },

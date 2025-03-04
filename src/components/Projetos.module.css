@@ -87,7 +87,7 @@
     }
 
     .slide_item {
-        width: 350px;
+        width: 250px;
         height: 250px;
         margin: auto;
     }
@@ -96,7 +96,7 @@
         flex-direction: column;
     }
     .box_info {
-        width: 350px;
+        width: 250px;
         text-align: center;
         gap: 30px;
     }

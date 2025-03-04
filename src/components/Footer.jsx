@@ -56,7 +56,7 @@ function Footer() {
                 </div>
             </div>
             <hr />
-            <div>
+            <div className={styles.endName}>
                 <span>© 2025 William Pimenta Ribeiro.</span>
             </div>
         </div>

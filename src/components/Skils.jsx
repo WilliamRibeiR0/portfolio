@@ -16,7 +16,7 @@ import { TbBrandDjango } from "react-icons/tb";
 
 function Skils() {
     return (
-        <div className={styles.skils}>
+        <div className={styles.skils} id="sobre">
             <h2>Skils</h2>
             <div className={styles.full}>
                 <div className={styles.sobre}>
@@ -32,8 +32,8 @@ function Skils() {
                     <span>
                         Atualmente sou inspetor de qualidade e estou em
                         transição de carreira estudando para ser um
-                        desenvolvedor web. Cursei analise e desenvolvimento de
-                        sistemas por dois semestres, estou a procura de ter a
+                        desenvolvedor web. Curso analise e desenvolvimento de
+                        sistemas, estou a procura de ter a
                         oportunidade de resolver problemas e me desafiar.
                     </span>
                     <div className={styles.icon}>

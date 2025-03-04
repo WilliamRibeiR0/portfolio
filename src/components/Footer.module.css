@@ -4,6 +4,7 @@
     width: 100%;
     background-color: #1c1b22;
     padding: 50px;
+    color: white;
 }
 
 .footer {
@@ -13,7 +14,6 @@
     gap: 50px;
     width: 50%;
     padding: 30px;
-    color: white;
 }
 
 .name {
@@ -60,4 +60,20 @@
 
 hr {
     width: 60%;
+}
+
+.endName{
+    padding:30px;
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        width: 250px;
+        font-size: 12px;
+    }
+    .endName{
+        text-align: center;
+        font-size: 13px;
+    }
 }
